@@ -1,9 +1,11 @@
+import Link from 'next/link'
+
 export function Header() {
   return (
     <header>
       <nav>
-        <a href="/">Home</a>
-        <a href="/dashboard">Dashboard</a>
+        <Link href="/">Home</Link>
+        <Link href="/dashboard">Dashboard</Link>
       </nav>
     </header>
   )
